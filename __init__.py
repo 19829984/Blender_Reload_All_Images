@@ -30,5 +30,4 @@ def register():
 
 
 def unregister():
-    bpy.ops.timelapse.pause_modal_operator()
-    operator_reload_all_img.register()
+    operator_reload_all_img.unregister()
